@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: /mitro-core
-Disallow: /sync
