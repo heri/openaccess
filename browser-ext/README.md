@@ -4,9 +4,9 @@ browser-ext
 Setup
 =====
 
-1. Install [nodeJS](http://nodejs.org/) and its package manager [npm](https://www.npmjs.org/). 
+1. Install [nodeJS](http://nodejs.org/) and its package manager [npm](https://www.npmjs.org/).
 
-2. Get node dependencies and crypto dependencies (run this once). 
+2. Get node dependencies and crypto dependencies (run this once).
 
         git clone git@github.com:mitro-co/browser-ext.git
         cd browser-ext/api; ./build.sh

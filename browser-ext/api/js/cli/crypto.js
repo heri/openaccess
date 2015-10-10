@@ -162,7 +162,7 @@ function _makeKeyNoMemo(encryptionKey, signingKey) {
 		}
 		return memoResult;
 	};
-	
+
 	key.verify = function(message, signature) {
 		return signingKey.verify(message, signature);
 	};
@@ -204,7 +204,7 @@ function _makeKeyNoMemo(encryptionKey, signingKey) {
 			var memoKey = mitro.cache.makeKey('decrypt', message);
 			var memoResult = cache.getItem(memoKey);
 			if (memoResult) {
-				
+
 			} else {
 				memoResult = key.decryptNoMemo(message);
 				cache.setItem(memoKey, memoResult);
